@@ -68,6 +68,16 @@ Restaura referências e pacotes da solução
 $ dotnet restore
 ```
 
+Dropar o banco de dados: -p Projeto -s Projeto de inicialização
+```
+$ dotnet ef database drop -p <projeto de migrations> -s <projeto de inicialização>
+```
+
+Remover as migrations
+```
+$ dotnet ef migrations remove -p <projeto de migrations> -s <projeto de inicialização>
+```
+
 ```
 $ 
 ```
